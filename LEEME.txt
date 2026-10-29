@@ -1,0 +1,14 @@
+ALVITEC MARTÍNEZ — PROYECTO ANDROID DEL COTIZADOR
+
+Este paquete contiene el proyecto fuente para generar una APK Android. No es una APK ya compilada.
+
+CÓMO GENERAR LA APK:
+1. Instala Android Studio en una computadora.
+2. Descomprime este ZIP.
+3. En Android Studio, elige Open y selecciona la carpeta ALVITEC_Cotizador_Android.
+4. Espera a que Gradle sincronice el proyecto. Si lo solicita, instala Android SDK Platform 35 y acepta las licencias.
+5. En el menú Build, elige Build Bundle(s) / APK(s) > Build APK(s).
+6. Al finalizar, Android Studio mostrará el enlace para localizar app-debug.apk.
+7. Pasa app-debug.apk al teléfono Android y ábrelo para instalarlo. Puede ser necesario permitir instalar aplicaciones de esa fuente.
+
+La aplicación abre el cotizador desde los archivos internos, funciona sin internet y conserva los datos/precios mediante almacenamiento local del WebView. Los datos del navegador externo no se comparten automáticamente con esta aplicación.

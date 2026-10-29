@@ -1,0 +1,10 @@
+PARA GENERAR LA APK DE ALVITEC MARTINEZ
+
+1. Copia esta carpeta del proyecto a una ubicacion local, por ejemplo Descargas.
+2. Verifica que Android Studio haya sincronizado Gradle y que Android SDK Platform 35 este instalado.
+3. Haz doble clic en GENERAR_APK_ALVITEC.bat.
+4. Espera a que termine la compilacion.
+5. Si muestra BUILD SUCCESSFUL, se creara ALVITEC_MARTINEZ.apk en esta misma carpeta.
+6. Si falla, toma una captura de las ultimas lineas de la ventana negra y compartela para diagnosticarlo.
+
+Este archivo automatiza la compilacion en tu PC; no es en si mismo un APK.
